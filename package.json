@@ -126,24 +126,5 @@
       "/home/darkowic/projects/examples/storybook-mobx-decorators-example/node_modules/jest-watch-typeahead/filename.js",
       "/home/darkowic/projects/examples/storybook-mobx-decorators-example/node_modules/jest-watch-typeahead/testname.js"
     ]
-  },
-  "babel": {
-    "plugins": [
-      [
-        "@babel/plugin-proposal-decorators",
-        {
-          "legacy": true
-        }
-      ],
-      [
-        "@babel/plugin-proposal-class-properties",
-        {
-          "loose": true
-        }
-      ]
-    ],
-    "presets": [
-      "react-app"
-    ]
   }
 }
