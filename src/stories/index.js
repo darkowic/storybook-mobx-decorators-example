@@ -13,6 +13,7 @@ class Test {
   @observable x = 1
 }
 
+const xxx = new Test();
 
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
